@@ -8,7 +8,7 @@ const LoginRedirect = props => {
 };
 
 const mapStateToProps = state => ({
-    login: state.session.facebook.data ? false : true,
+    login: state.session.facebook.data ? false : false,
     localDev: state.config.localDev
 });
 
